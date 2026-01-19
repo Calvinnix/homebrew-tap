@@ -1,28 +1,28 @@
 class SimpleGit < Formula
   desc "Lightweight Git TUI"
   homepage "https://github.com/Calvinnix/simple-git"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Calvinnix/simple-git/releases/download/v0.2.0/simple-git-darwin-arm64.tar.gz"
-      sha256 "48d1edcd1d4d0e7acaf54bef6a7ff672bd5ad0b3aa1a52f0bc50ffb5dcb67dac"
+      url "https://github.com/Calvinnix/simple-git/releases/download/v0.3.0/simple-git-darwin-arm64.tar.gz"
+      sha256 "3d036b863c62987ce54f923340abff2d6e9e7d4e8badfff062f72204e733c127"
     end
     on_intel do
-      url "https://github.com/Calvinnix/simple-git/releases/download/v0.2.0/simple-git-darwin-amd64.tar.gz"
-      sha256 "b8f506f6f42ccf2b6c7bc600e7085e6a53252600e5a3c41b4d1df18871d860ec"
+      url "https://github.com/Calvinnix/simple-git/releases/download/v0.3.0/simple-git-darwin-amd64.tar.gz"
+      sha256 "e25ec022102ff3f38a4b419753b09a812935b771ae0f86b6f9b199cbd4900129"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Calvinnix/simple-git/releases/download/v0.2.0/simple-git-linux-arm64.tar.gz"
-      sha256 "42618bb2c5c4a2d6b510adaabeb0f8c8036a2445dd60e840af67bd26b80204a3"
+      url "https://github.com/Calvinnix/simple-git/releases/download/v0.3.0/simple-git-linux-arm64.tar.gz"
+      sha256 "02c1429d88f019aeae1658598b8b1d772fac041ab74b2aff41415b01980c2c16"
     end
     on_intel do
-      url "https://github.com/Calvinnix/simple-git/releases/download/v0.2.0/simple-git-linux-amd64.tar.gz"
-      sha256 "c95fc1e1e87af313fa71bbb3e62d67bf209607ff900127fa0b6ddbcacfd28eb6"
+      url "https://github.com/Calvinnix/simple-git/releases/download/v0.3.0/simple-git-linux-amd64.tar.gz"
+      sha256 "d46d7754a4f14e598eaa4e49c1004cabe43f98efc4cf30adc187ebdfda06eb72"
     end
   end
 
