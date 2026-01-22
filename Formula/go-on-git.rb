@@ -1,28 +1,28 @@
 class GoOnGit < Formula
   desc "Lightweight Git TUI"
   homepage "https://github.com/Calvinnix/go-on-git"
-  version "0.11.0"
+  version "0.12.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Calvinnix/go-on-git/releases/download/v0.11.0/go-on-git-darwin-arm64.tar.gz"
-      sha256 "49e36cf700aa9c31472cdafe81edc2fe40d669479dc0491f9aa340b709f25a88"
+      url "https://github.com/Calvinnix/go-on-git/releases/download/v0.12.0/go-on-git-darwin-arm64.tar.gz"
+      sha256 "aeaaa542778d754d8ffd5c6ad8d8c70379b38847394240b2ce3823d7ff8f2aea"
     end
     on_intel do
-      url "https://github.com/Calvinnix/go-on-git/releases/download/v0.11.0/go-on-git-darwin-amd64.tar.gz"
-      sha256 "14ba1544c9d478e7ed948b1f7667d2e3329b1d02afa067985985b88ed0213f23"
+      url "https://github.com/Calvinnix/go-on-git/releases/download/v0.12.0/go-on-git-darwin-amd64.tar.gz"
+      sha256 "a3ee8c05d3dc048d2a990b241677c8e948f6a216eb9945bab4bdde470e515917"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Calvinnix/go-on-git/releases/download/v0.11.0/go-on-git-linux-arm64.tar.gz"
-      sha256 "43a199e9465272bf4e01bc823e03f42d83c56487c436ff6ee71eb78d498d31ec"
+      url "https://github.com/Calvinnix/go-on-git/releases/download/v0.12.0/go-on-git-linux-arm64.tar.gz"
+      sha256 "5f2a14df4e8936e3f9b42a6546aa30e310531370d165412e9fad19927d2fd728"
     end
     on_intel do
-      url "https://github.com/Calvinnix/go-on-git/releases/download/v0.11.0/go-on-git-linux-amd64.tar.gz"
-      sha256 "2a972d4f2d984653a8ef8f4fad60ddfa6ac1d9243767b6979328f19784d2b372"
+      url "https://github.com/Calvinnix/go-on-git/releases/download/v0.12.0/go-on-git-linux-amd64.tar.gz"
+      sha256 "14b1ea472eaf52586565b686a38516ddf56124e51dd9c386d01fcec8459eeac9"
     end
   end
 
